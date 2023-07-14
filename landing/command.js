@@ -17,25 +17,25 @@ function setVol() {
 }
 
 function goToSignUp() {
-  window.location = '/proj1/SignUp/signUp.html';
+  window.location = 'proj1/SignUp/signUp.html';
 }
 
 function goToScores() {
-  window.location = '/proj1/scores/scores.html';
+  window.location = 'proj1/scores/scores.html';
 }
 
 function goToPlay() {
-  window.location = '/proj1/ex1/game.html';
+  window.location = 'proj1/ex1/game.html';
 }
 
 function goToContact() {
-  window.location = '/proj1/contact/contact.html';
+  window.location = 'proj1/contact/contact.html';
 }
 
 function goToGallery() {
-  window.location = '/proj1/gallery/gallery.html';
+  window.location = 'proj1/gallery/gallery.html';
 }
 
 function goToDevs() {
-  window.location = '/proj1/devs/devs.html';
+  window.location = 'proj1/devs/devs.html';
 }
