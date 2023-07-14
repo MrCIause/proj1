@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    background-color: rgb(22, 22, 22);
+}
+
+.main{
+    position: absolute;
+    width: 100%; height: 100%;
+
+}
+
+.nav{
+    position: sticky;
+    background-color: rgb(0, 0, 0);
+    height: 8%; width: 100%;
+    top: 0vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#skyfine{
+    position: absolute;
+    left:6vh; top: 2vh;
+    height: 50%; width: 13%;
+    
+}
+
+#homebut{
+    position: absolute;
+    right: 5vh; top: 2vh;
+    height: 50%;
+}
+
+.custom1{
+    height:5vh;
+    width: 20vh;
+    margin: 1.5vh;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.2vh solid rgba(0, 255, 255, 0.5);
+    box-shadow: 0px 0px 2vh cyan;
+    text-shadow: 0px 0px 3vh cyan;
+    color: cyan;
+    font-family: 'Tilt Neon', cursive;
+    letter-spacing: 0.5vh;
+    font-size: 3vh;
+    border-radius: 1vh;
+    text-align: center;
+
+}
+
+.custom1:hover{
+    background-color: cyan;
+    box-shadow: 0vh 0vh 5vh cyan;
+    color: rgb(0, 0, 0);
+    font-size: 2.5vh;
+    transition: 0.3s;
+
+}
+
+.custom1:active{
+    background-color: rgb(2, 116, 193);
+    box-shadow: 0vh 0vh 5vh rgb(2, 116, 193);
+    color: rgb(0, 0, 0);
+    transition: 0s;
+    border: 0px solid rgb(2, 116, 193);
+}
+
+@media only screen and (max-height: 1600px){
+
+    .nav{
+        position: sticky;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 8%; width: 100%;
+        top: 0vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-logo img{
+        position: relative;
+        height: 50%; top: 25%;
+        left:7vh;
+        width: 50%;
+        
+    }
+    
+    .home-button img{
+        position: relative;
+        height: 50%; top: 25%;
+        left: 25%;
+    }
+
+}
+
+.media{
+    position: absolute;
+    margin: 2.5% auto;
+    text-align: center;
+    color: cyan;
+    font-family: 'Tilt Neon', cursive;
+    z-index: 0;
+}
+
+.media img{
+    width: 20%;
+    padding: 1vh;
+    image-rendering: crisp-edges;
+    opacity: 70%;
+    transition: 0.3s;
+
+}
+
+.media img:hover{
+    opacity: 100%;
+    width: 21%;
+    transition: 0.3s;
+    padding: 0%;
+
+}
+

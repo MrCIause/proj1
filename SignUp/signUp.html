@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Graduate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <link rel="shortcut icon" type="image/png" href="/proj1/landing/favicon.png" />
+    <link rel="html" href="/proj1/landing/landing.html" />
+    <script src="/proj1/landing/command.js"></script>
+    <title>GMW</title>
+  </head>
+  <body>
+    <div class="main">
+    <div class="nav">
+
+      <img src="/proj1/landing/NavLogo2.png" type="png" id="skyfine"/>
+
+      <button class="button1 custom1" onclick="goToSignUp()">SignUp!</button>
+        <button class="button3 custom1" onclick="goToScores()">Scores</button>
+        <button class="button3 custom1" onclick="goToPlay()">Play</button>
+        <button class="button4 custom1" onclick="goToContact()">Contact</button>
+        <button class="button5 custom1" onclick="goToGallery()">Gallery</button>
+        <button class="button6 custom1" onclick="goToDevs()">Devs</button>
+      
+        <a href="/proj1/landing/landing.html"><img src="/proj1/landing/homebut.png" type="png" id="homebut"/></a>
+      
+      </div>
+
+    <div class="main-signup">
+      
+      
+      <h2>SingUp</h2>
+      <label for="firstName" id="label1">Firstname:</label><br>
+      <input type="text" id="firstName" name="firstName" /><br>
+
+      <label for="lastName" id="label1">Lastname:</label><br>
+      <input type="text" id="lastName" name="lastName" /><br>
+
+      <label for="tel" id="label2">Tel:</label><br>
+      <input type="tel" id="tel" name="tel" /><br>
+
+      <label for="email" id="label3">Email:</label><br>
+      <input type="email" id="email" name="email" /><br>
+
+      <label for="date" id="label4">Date:</label><br>
+      <input type="date" id="date" name="date" /><br>
+
+      <input type="submit" id="submit" name="submit">
+      <input type="reset" id="reset" name="reset">
+
+      <p>By clicking the "Submit" button, you are signing up to the tournament, and agree to GMW' Terms of Service and Privacy Policy</p>
+
+    </div>
+    <p></p>
+  </body>
+</html>
